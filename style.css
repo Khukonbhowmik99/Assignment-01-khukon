@@ -14,7 +14,7 @@
     border: none;
     padding: 12px 20px;
     border-radius: 8px;
-    color: white; 
+    color: white;
     margin-right: 60px;
     font-size: 14px;
     cursor: pointer;
@@ -136,11 +136,21 @@ section .banner-btn {
 
 .card-content {
     padding: 8px 16px;
+}
 
+.card-content span {
+    color: #2563EB;
+    font-size: 14px;
+}
+
+.card-content p {
+    color: #575757;
+    font-size: 14px;
 }
 
 .card-content h2 {
     padding: 8px 0;
+    color: #0D1B2A;
 }
 
 .secure-your-spot {
@@ -149,6 +159,7 @@ section .banner-btn {
 
 .secure-your-spot-headline h1 {
     text-align: center;
+    color: #0D1B2A;
 }
 
 .secure-your-spot-headline p {
@@ -191,7 +202,8 @@ section .banner-btn {
 
 .card-content-text h2 {
     font-size: 35px;
-    color: rgb(26, 26, 26);
+    color: #0D1B2A;
+    padding: 8px 3px;
 }
 
 .card-content-text p {
@@ -210,9 +222,18 @@ section .banner-btn {
     padding: 10px 0px 20px 20px;
     padding-top: 10px;
     padding-bottom: 20px;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
+.card-content-text ul li::marker {
+    color: #2563EB;
+}
+
+.card-content-text-pro ul li::marker {
+    color: #60A5FA;
+
+
+}
 
 .body-card {
     display: flex;
@@ -227,7 +248,9 @@ section .banner-btn {
 }
 
 .grid-container-pricing-blue h1 {
+
     color: white;
+    padding: 8px 3px;
 }
 
 .grid-container-pricing-blue span {
@@ -240,12 +263,12 @@ section .banner-btn {
 
 .grid-container-pricing-blue li {
     color: white;
-
+    opacity: .80;
 }
 
 .pricing-btn {
-    background-color: #1D4ED8;
-    border: #1D4ED8 1px solid;
+    background-color: #2563EB;
+    border: #2563EB 1px solid;
     padding: 10px 65px;
     border-radius: 8px;
     color: white;
@@ -354,6 +377,7 @@ section .banner-btn {
     border-radius: 8px;
 
 
+
 }
 
 .img-item.wide {
@@ -371,7 +395,7 @@ section .banner-btn {
 .left-box {
     border: 1px solid #3c216d;
     border-radius: 12px;
-    padding: 50px;
+    padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px 15px;
@@ -379,6 +403,19 @@ section .banner-btn {
     margin-bottom: 25px;
     margin-top: 25px;
     align-items: center;
+}
+
+.left-item {
+
+    min-width: 150px;
+    min-height: 120px;
+}
+
+.left-item img {
+    padding-bottom: 10px;
+    height: 40px;
+    width: 40px;
+ 
 }
 
 .left-item .number {
