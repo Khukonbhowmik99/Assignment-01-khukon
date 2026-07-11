@@ -1,0 +1,1 @@
+Generate an idea about the section of "Something Missing" for DevConf 2026 theme.This blank part will be related to Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, give me the UI design of the missing part of the design.
