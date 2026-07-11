@@ -12,12 +12,16 @@
 .common-btn {
     background-color: #1D4ED8;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: white;
-    align-items: right;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white; 
     margin-right: 60px;
     font-size: 14px;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    font-weight: bold;
 }
 
 
@@ -68,26 +72,27 @@ ul li a {
 
 }
 
-section .banner-text {
+.banner-text {
     color: #FFFFFF;
     position: relative;
     top: -430px;
     text-align: center;
 }
 
-section .banner-text h1 {
+.banner-text h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     display: inline;
 
 }
 
-section .banner-text p {
+.banner-text p {
     text-align: center;
     margin: 20px auto;
     padding: 0px 300px;
     font-size: 14px;
+    color: #8c8c8c;
 }
 
 section .banner-btn {
@@ -97,6 +102,9 @@ section .banner-btn {
     padding: 0px;
 }
 
+.meet-the-speakers {
+    padding: 50px 0px;
+}
 
 .meet-the-speakers h1 {
     max-width: 1200px;
@@ -119,11 +127,10 @@ section .banner-btn {
 
 .card {
     background-color: #ffffff;
-    border: 1px solid #dbdddd;
+    border: 1px solid #cfcfcf;
     padding-bottom: 16px;
-    border-radius: 12px;
+    border-radius: 20px;
     overflow: hidden;
-    /* display: flex; */
     flex-direction: column;
 }
 
@@ -134,12 +141,13 @@ section .banner-btn {
 
 .card-content h2 {
     padding: 8px 0;
+}
 
+.secure-your-spot {
+    padding: 50px 0px;
 }
 
 .secure-your-spot-headline h1 {
-    padding-top: 30px;
-    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -156,9 +164,9 @@ section .banner-btn {
     flex-direction: row;
     padding: 10px;
     justify-content: space-between;
-    border: 1px solid #adadaf;
+    border: 1px solid #cfcfcf;
     margin: 8px;
-    border-radius: 6px;
+    border-radius: 20px;
     min-width: 310px;
     color: #888888;
 }
@@ -173,7 +181,7 @@ section .banner-btn {
 
 .card-content-text {
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 10px;
     text-align: left;
 }
 
@@ -183,7 +191,7 @@ section .banner-btn {
 
 .card-content-text h2 {
     font-size: 35px;
-    color: black;
+    color: rgb(26, 26, 26);
 }
 
 .card-content-text p {
@@ -199,11 +207,12 @@ section .banner-btn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 0px 20px 20px;
     padding-top: 10px;
     padding-bottom: 20px;
     list-style-type: circle;
-
 }
+
 
 .body-card {
     display: flex;
@@ -236,42 +245,179 @@ section .banner-btn {
 
 .pricing-btn {
     background-color: #1D4ED8;
-    border: none;
+    border: #1D4ED8 1px solid;
     padding: 10px 65px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     align-items: center;
     margin-right: 60px 60px;
     font-size: 14px;
-
+    min-width: 250px;
+    cursor: pointer;
 }
 
-.pricing-btn-normal {
+.pricing-btn-normal1 {
     background-color: white;
-    border: none;
     padding: 10px 65px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #575757;
     align-items: center;
     margin-right: 60px 60px;
     font-size: 14px;
     border: 1px solid blue;
+    min-width: 250px;
+    cursor: pointer;
 }
 
 .pricing-btn-normal2 {
     background-color: white;
-    border: none;
     padding: 10px 65px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #575757;
     align-items: center;
     margin-right: 60px 60px;
     font-size: 14px;
     border: 1px solid rgb(2, 2, 2);
+    min-width: 250px;
+    cursor: pointer;
 }
 
+/* Highlights start */
+
+.highlights {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.highlights-body {
+    display: flex;
+    background-color: #0D1B2A;
+    justify-content: center;
+    padding: 40px 20px;
+
+
+}
+
+.highlights-left {
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding-top: 10px;
+}
+
+.header-title h2 {
+    color: #efefef;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.header-title p {
+    color: #efefef;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+}
+
+.right-side {
+    display: grid;
+    padding-right: 30px;
+
+}
+
+.img-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-item {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 100%;
+    border: 1px solid #3c216d;
+}
+
+.img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+
+
+}
+
+.img-item.wide {
+    grid-column: span 2;
+
+}
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.left-box {
+    border: 1px solid #3c216d;
+    border-radius: 12px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 15px;
+    background-color: rgba(19, 15, 38, 0.3);
+    margin-bottom: 25px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.left-item .number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #a27cff;
+    display: block;
+}
+
+.left-item .label {
+    color: #fafafa;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+}
+
+.btn-watch {
+    background: transparent;
+    border: 1px solid #4f3b99;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Highlights End */
+
+
+/* Footer start */
 .footer {
-    padding: 0 100px 0 100px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
 }
 
 .footer-left-logo img {
@@ -288,7 +434,7 @@ section .banner-btn {
 .footer-area {
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(248, 247, 247);
     padding-top: 10px;
 }
 
@@ -296,7 +442,7 @@ section .banner-btn {
     display: flex;
     align-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     padding-right: 30px;
 }
 
@@ -307,14 +453,13 @@ section .banner-btn {
     text-decoration: none;
 }
 
-
 .social-media-link a span {
     padding-left: 8px;
 }
 
 .social-media-link img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 
 }
 
@@ -323,11 +468,10 @@ section .banner-btn {
     padding: 10px 0;
     text-align: center;
     padding: 10px 0;
-    font-size: 14px;
-    border-top: 1px solid black;
+    font-size: 12px;
+    border-top: 1px solid #b5b5b5;
 
 }
-
 
 .footer-row1 {
     display: flex;
